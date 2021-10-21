@@ -4,6 +4,7 @@ Prerequites
 
 1. OpenSSL instalation
 2. Working CertifyTheWeb client
+3. Working Apache Tomcat installation with SSL connector
 
 Script template:
 
@@ -21,7 +22,22 @@ if($result.IsSuccess) {
     return "Script did not receive parameters or cert renew was unsuccesfull!"
 } 
 ```
+
+Example of Tomcat SSL connector configuration
+
+```
+	<Connector
+           protocol="org.apache.coyote.http11.Http11NioProtocol"
+           port="8443" maxThreads="200"
+		   relaxedPathChars='[]|'
+		   relaxedQueryChars='[]|'
+           scheme="https" secure="true" SSLEnabled="true"
+           keystoreFile="c:/keycloak.jks" keystorePass="" keyAlias=''
+           clientAuth="false" sslProtocol="TLS"/>
+```
+
 Examples of parameters
+
 ```
 <PATH TO TEMPORARY LOCATION FOR SAVING PEM FILE>
     example value: c:\TEMP\temp.pem
