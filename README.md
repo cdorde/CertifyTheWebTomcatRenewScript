@@ -1,12 +1,13 @@
-# Certify The Web - Hook script for recreating keystore (jks) for Tomcat
+## Certify The Web - Hook script for recreating keystore (jks) for Tomcat
 
-Prerquites
+#Prerquites
 
 1. OpenSSL instalation
 2. Java installation
 
-Scrtipt template:
+#Scrtipt template:
 
+'''
 param($result)
 
 if($result.IsSuccess) {
@@ -19,3 +20,4 @@ if($result.IsSuccess) {
 } else {
     return "Script did not receive parameters or cert renew was unsuccesfull!"
 } 
+'''
