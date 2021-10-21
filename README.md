@@ -7,7 +7,7 @@
 
 #Scrtipt template:
 
-'''
+```
 param($result)
 
 if($result.IsSuccess) {
@@ -20,4 +20,4 @@ if($result.IsSuccess) {
 } else {
     return "Script did not receive parameters or cert renew was unsuccesfull!"
 } 
-'''
+```
