@@ -1,6 +1,6 @@
 ## Certify The Web - Hook script for recreating keystore (jks) for Tomcat for older versions
 
-Newer version of clinet has option Deploy to Tomcat.
+Newer version of clinet has option Deploy to Tomcat. Script works with old and new version of client.
 
 Prerequites
 
@@ -11,7 +11,7 @@ Prerequites
 How to
 
 1. create script file
-2. start CertifyTheWeb client and add script as hook 
+2. start CertifyTheWeb client and add script as hook or in newer version as Task.
 
 Script template:
 
