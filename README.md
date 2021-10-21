@@ -1,6 +1,6 @@
 ## Certify The Web - Hook script for recreating keystore (jks) for Tomcat for older versions
 
-Newer version of clinet has option Deploy to Tomcat. Script works with old and new version of client.
+Newer version of clinet has option Deploy to Tomcat. Script works with old and new version of client. Advantage of script is that you can set password for keystore.
 
 Prerequites
 
