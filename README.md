@@ -32,7 +32,7 @@ Example of Tomcat SSL connector configuration
 		   relaxedPathChars='[]|'
 		   relaxedQueryChars='[]|'
            scheme="https" secure="true" SSLEnabled="true"
-           keystoreFile="<PATH TO JKS FILE>" keystorePass="" keyAlias='<KEY ALIAS>'
+           keystoreFile="<PATH TO JKS FILE>" keystorePass="PleasedontuseDOBaspa$$w0rd!" keyAlias='<KEY ALIAS>'
            clientAuth="false" sslProtocol="TLS"/>
 ```
 
@@ -54,6 +54,9 @@ Examples of parameters
 <PATH TO PASSWORD FILE>
     example value: c:\Users\Administrator\password.txt
     file content: PleasedontuseDOBaspa$$w0rd!
+    
+<KEYSTORE_PASSWORD> - must be the same as file content of <PATH TO PASSWORD FILE>
+    example value: PleasedontuseDOBaspa$$w0rd!
     
 <TOMCAT WINDOWS SERVICE NAME - NOT DISPLAY NAME>
     example value: tomcat8
