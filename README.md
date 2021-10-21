@@ -40,5 +40,5 @@ Examples of parameters
     file content: PleasedontuseDOBaspa$$w0rd!
     
 <TOMCAT WINDOWS SERVICE NAME - NOT DISPLAY NAME>
-    example value: tomcat 8
+    example value: tomcat8
 ```
