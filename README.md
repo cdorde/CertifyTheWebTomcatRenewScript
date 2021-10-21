@@ -32,7 +32,7 @@ Example of Tomcat SSL connector configuration
 		   relaxedPathChars='[]|'
 		   relaxedQueryChars='[]|'
            scheme="https" secure="true" SSLEnabled="true"
-           keystoreFile="<PATH TO JKS FILE>" keystorePass="PleasedontuseDOBaspa$$w0rd!" keyAlias='<KEY ALIAS>'
+           keystoreFile="<PATH TO JKS FILE>" keystorePass="<KEYSTORE_PASSWORD>" keyAlias="<KEY ALIAS>"
            clientAuth="false" sslProtocol="TLS"/>
 ```
 
