@@ -1,11 +1,11 @@
 ## Certify The Web - Hook script for recreating keystore (jks) for Tomcat
 
-#Prerquites
+###Prerquites
 
 1. OpenSSL instalation
 2. Java installation
 
-#Scrtipt template:
+###Scrtipt template:
 
 ```
 param($result)
